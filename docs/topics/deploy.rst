@@ -45,9 +45,9 @@ To deploy spiders to Zyte Scrapy Cloud you can use the `shub`_ command line
 tool.
 Please refer to the `Zyte Scrapy Cloud documentation`_ for more information.
 
-Zyte Scrapy Cloud is compatible with Scrapyd and one can switch between
-them as needed - the configuration is read from the ``scrapy.cfg`` file
-just like ``scrapyd-deploy``.
+To deploy from a Scrapy project directory, configure ``scrapinghub.yml`` with
+your Zyte project ID (available on https://app.zyte.com/) and keep your Python
+dependencies in ``requirements.txt``.
 
 .. _Deploying your project: https://scrapyd.readthedocs.io/en/latest/deploy.html
 .. _Scrapyd: https://github.com/scrapy/scrapyd

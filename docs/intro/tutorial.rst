@@ -57,6 +57,8 @@ This will create a ``tutorial`` directory with the following contents::
 
     tutorial/
         scrapy.cfg            # deploy configuration file
+        scrapinghub.yml       # Zyte Scrapy Cloud deployment settings
+        requirements.txt      # project dependencies for deployment
 
         tutorial/             # project's Python module, you'll import your code from here
             __init__.py
