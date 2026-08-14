@@ -18,6 +18,8 @@ if TYPE_CHECKING:
 
 TEMPLATES_TO_RENDER: tuple[tuple[str, ...], ...] = (
     ("scrapy.cfg",),
+    ("scrapinghub.yml.tmpl",),
+    ("requirements.txt.tmpl",),
     ("${project_name}", "settings.py.tmpl"),
     ("${project_name}", "items.py.tmpl"),
     ("${project_name}", "pipelines.py.tmpl"),
